@@ -10,6 +10,9 @@ const price = document.querySelector('#price');
 const moon = document.querySelector('#moon');
 const sun = document.querySelector('#sun');
 const body = document.querySelector('#body');
+const buttonName = document.getElementById('buttonName');
+const buttonPrice = document.getElementById('buttonPrice');
+const buttonStatus = document.getElementById('buttonStatus');
 
 moon && moon.addEventListener('click', function(e) {
     e.preventDefault();
